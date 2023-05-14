@@ -19,11 +19,11 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About The Project
-
+<p>
          The development of compilers plays a crucial role in translating high-level programming languages into machine-readable code. In this project, we present the design and implementation of a compiler with all six phases using the Python programming language and the Tkinter library for creating a graphical user interface (GUI). The compiler is designed to support the translation of a high-level programming language into executable code, following the classic six-phase compilation process: lexical analysis, syntax analysis, semantic analysis, intermediate code generation, code optimization, and code generation. The lexical analysis phase involves breaking down the input program into a sequence of tokens, each representing a meaningful unit of the programming language. The tokens are identified using regular expressions and stored in a token stream. The syntax analysis phase parses the token stream and verifies whether the program adheres to the specified grammar rules. This phase utilizes a context-free grammar and constructs a parse tree to represent the syntactic structure of the input program. In the semantic analysis phase, the compiler performs type checking, scope resolution, and other semantic validations. It ensures that the program's semantics are consistent and conform to the language's rules. The intermediate code generation phase translates the parse tree into an intermediate representation (IR) code, which is a platform-independent and easier-to-optimize representation of the program. This phase aims to capture the essential operations and control flow of the program. The code optimization phase enhances the intermediate code by applying various techniques to improve its efficiency, such as constant folding, common subexpression elimination, and loop optimization.
 
 ## Built With
-
+<p>
        The objective of this project is to design and implement a Python-based compiler with a graphical user interface (GUI) using the Tkinter library. The compiler will encompass all six phases of the compilation process: lexical analysis, syntax analysis, semantic analysis, intermediate code generation, code optimization, and code generation.
 
 ## Getting Started
